@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* font-family: 'Inter', sans-serif; */
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
@@ -17,7 +16,6 @@
     --second-bg-color: #22282f;
     --main-color: #13bbff;
     --other-color: #c3cad5;
-    /* --h1-font: 4.5rem; */
     --h1-font: 2.5rem;
     --h2-font: 1.7rem;
     --p-font: 1rem;
@@ -105,7 +103,7 @@ section {
 .hero {
     height: 100hv;
     width: 100%;
-    background: url(./images/background.png);
+    background: url(./images/bg3.jpg);
     background-position: top right;
     background-size: cover;
     display: flex;

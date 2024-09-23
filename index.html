@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Port-folio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <!-- remix icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +18,9 @@
         rel="stylesheet">
     <!-- aos on scroll  -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -25,9 +28,9 @@
 
 
     <header>
-        <a href="#" class="logo"> <span>K</span>UIPO</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-
+        <a href="#home" class="logo"> <span>K</span>UIPO</a>
+        <!-- <div class="bx bx-menu" id="menu-icon"></div> -->
+        <div id="menu-icon"><i class="fas fa-bars"></i></div>
         <ul class="navlist">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -36,7 +39,7 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="top-btnn">
-            <a href="#" class="h-btn"> Contact me</a>
+            <a href="#contact" class="h-btn"> Contact me</a>
         </div>
     </header>
 
@@ -44,19 +47,22 @@
         <div class="main-content" data-aos="fade-in">
             <h4>Hi, There</h4>
             <h1>I'm <span> Jude Kuipo Kibinde</span> </h1>
-            <p> I am an IT professional, research and Enterpreneur with extensive experience for
-                over 7 years as a university instructor. I lecture a focus on hands-on training to
-                demystify programming, computer networking concepts to passionate IT learners.
+            <p> An IT professional, research and enterpreneur with extensive experience for
+                over 7 years as a university instructor. I lecture with a focus on hands-on training to
+                demystify programming, dev, computer networking concepts to passionate IT learners.
             </p>
             <div class="social">
-                <a href="#"> <i class="ri-linkedin-fill"></i></a>
-                <!-- <a href="#"> <i class="ri-researchgate-fill"></i></a> -->
-                <a href="#"> <i class="ri-facebook-fill"></i></a>
-                <a href="#"> <i class="ri-youtube-fill"></i></a>
+                <a href="https://www.linkedin.com/in/jude-kuipo-kibinde-566863150/" target="_blank"
+                    rel="no-referrer noopener"> <i class="ri-linkedin-fill"></i></a>
+                <a href="https://www.researchgate.net/profile/Jude-Kuipo-Kibinde-3" target="_blank"
+                    rel="no-referrer noopener"><i class="ai ai-researchgate-square ai-3x"></i></a>
+                <a href="https://www.facebook.com/JudeKuipoKibinde/" target="_blank" rel="no-referrer noopener"> <i
+                        class="ri-facebook-fill"></i></a>
+                <a href="#" target="_blank" rel="no-referrer noopener"> <i class="ri-youtube-fill"></i></a>
             </div>
             <div class="main-btn">
-                <a href="#" class="btn"> Hire me</a>
-                <a href="#" class="btn btn2"> Download CV</a>
+                <a href="#contact" class="btn"> Hire me</a>
+                <a href="./doc/CV.pdf" class="btn btn2"> Download CV</a>
             </div>
         </div>
     </section>
@@ -76,7 +82,7 @@
                 </p>
                 <p class="exp">
                     Specialty:
-                    <span>Computer Networking, Software Engineering</span>
+                    <span>Information Technology</span>
                 </p>
                 <p class="exp">
                     Address:
@@ -88,14 +94,14 @@
                 </p>
                 <p class="exp">
                     Phone:
-                    <span>+(237)693005401</span>
+                    <span>+(237)693-005-401</span>
                 </p>
                 <p class="exp">
                     Remote:
                     <span>Available</span>
                 </p>
             </div>
-            <a href="#" class="btn"> View All Prop</a>
+            <a href="#home" class="btn"> View All Prop</a>
         </div>
 
     </section>
@@ -106,33 +112,33 @@
         </div>
         <div class="services-content" data-aos="zoom-in-up">
             <div class="box">
-                <!-- <img src="./images/portfolio.jpg" alt=""> -->
+                <!-- <img src=""> -->
                 <h3>Web Development</h3>
                 <p>
                     Building professional, modern & completely responsive websites.
                 </p>
-                <a href="#">Download Now
+                <a href="#contact">Hire me
                     <i class="ri-arrow-right-line"></i>
                 </a>
             </div>
             <div class="box">
-                <!-- <img src="./images/portfolio.jpg" alt=""> -->
+                <!-- <img src=""> -->
                 <h3> Network Installations</h3>
                 <p>
-                    Design, deploy, maintain and troubleshoot network
+                    Design, deploy, maintain and troubleshoot networks
                 </p>
-                <a href="#">Download Now
+                <a href="#contact">Hire me
                     <i class="ri-arrow-right-line"></i>
                 </a>
             </div>
             <div class="box">
-                <!-- <img src="./images/portfolio.jpg" alt=""> -->
+                <!-- <img src=""> -->
                 <h3>Training Programs </h3>
                 <p>
                     Customized hand-on training in Software and Cisco Netwoking.
 
                 </p>
-                <a href="#">Download Now
+                <a href="#contact">Hire me
                     <i class="ri-arrow-right-line"></i>
                 </a>
             </div>
@@ -144,16 +150,16 @@
         </div>
         <div class="portfolio-content" data-aos="zoom-in-up">
             <div class="row">
-                <img src="./images/portfolio.jpg" alt="">
+                <img src="" alt="">
                 <div class="main-row">
                     <div class="row-text">
                         <h5>Website Building</h5>
                     </div>
                     <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <!-- <i class="ri-github-fill"></i> -->
                     </div>
                 </div>
-                <h4> My portfolio </h4>
+                <h4> Design and deployment of My portfolio </h4>
             </div>
             <div class="row">
                 <img src="" alt="">
@@ -162,7 +168,7 @@
                         <h5>Website Building</h5>
                     </div>
                     <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <!-- <i class="ri-github-fill"></i> -->
                     </div>
                 </div>
                 <h4> A Restaurant Management System</h4>
@@ -174,10 +180,10 @@
                         <h5>Computer Networking</h5>
                     </div>
                     <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <!-- <i class="ri-github-fill"></i> -->
                     </div>
                 </div>
-                <h4> Cisco Router and Switching configurations</h4>
+                <h4> Cisco Switch and Router configurations</h4>
             </div>
             <div class="row">
                 <img src="" alt="">
@@ -186,10 +192,10 @@
                         <h5>Research </h5>
                     </div>
                     <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <!-- <i class="ri-github-fill"></i> -->
                     </div>
                 </div>
-                <h4> Publishing of Books and articles in peer-reviewed journals</h4>
+                <h4> International Publishing of Books and articles</h4>
             </div>
             <div class="row">
                 <img src="" alt="">
@@ -198,22 +204,22 @@
                         <h5>Training Programmes</h5>
                     </div>
                     <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <!-- <i class="ri-github-fill"></i> -->
                     </div>
                 </div>
-                <h4> Expect Tech Group training sessions 2024</h4>
+                <h4> Founded the startup, Expert Tech Group 2024</h4>
             </div>
             <div class="row">
-                <img src="" alt="">
+                <img src="">
                 <div class="main-row">
                     <div class="row-text">
                         <h5>Academic Supervision</h5>
                     </div>
                     <div class="row-icon">
-                        <i class="ri-github-fill"></i>
+                        <!-- <i class="ri-github-fill"></i> -->
                     </div>
                 </div>
-                <h4> Supervision of Higher Natioal Diploma & Bachelor of Technology Candidates </h4>
+                <h4> Supervision of HND & Btech students </h4>
             </div>
         </div>
     </section>
@@ -223,11 +229,13 @@
             <h2>Contact <span>me</span> </h2>
         </div>
         <div class="contact-form" data-aos="zoom-in">
-            <form action="">
-                <input type="text" placeholder="Your name" required>
-                <input type="email" placeholder="Email Address" aria-required>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
-                <input type="Submit" value="Send message" class="send-btn">
+            <form id="form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="9bef6523-ae05-47e7-9374-958156ef471d">
+                <input class="content-inputs" name="name" type="text" placeholder="Your name" required>
+                <input class="content-inputs" name="email" type="email" placeholder="Email Address" aria-required>
+                <textarea class="content-inputs" name="message" cols="30" rows="10" placeholder="Write Message Here..."
+                    required></textarea>
+                <input type="submit" value="Send message" class="send-btn">
             </form>
         </div>
     </section>
